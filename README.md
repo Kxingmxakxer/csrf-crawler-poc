@@ -116,8 +116,5 @@ This highlights the importance of validating every state-changing request with a
 
 ---
 
-## Submission Instructions
 
-1. Upload your work (crawler + PoC + this README) to a GitHub repository.
-2. Share your repo in the Cyber-Security Discord channel using the following format:
 
